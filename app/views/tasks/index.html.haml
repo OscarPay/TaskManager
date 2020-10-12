@@ -5,7 +5,7 @@
     %tr
       %th Name
       %th Description
-      %th Due date date
+      %th Due date
       %th Category
       %th
       %th
@@ -16,7 +16,7 @@
       %tr
         %td= task.name
         %td= task.description
-        %td= task.due_date_date
+        %td= task.due_date
         %td= task.category
         %td= link_to 'Show', task
         %td= link_to 'Edit', edit_task_path(task)
