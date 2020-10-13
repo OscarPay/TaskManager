@@ -6,6 +6,11 @@ Commands to Reproduce this projects
 `rails g simple_form:install --bootstrap`
 `rails g scaffold Category name description:text`
 `rails g scaffold Task name description:text due_date:date category:references`
+`rails db:create`
+`rails db:migrate`
 `docker run -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=postgres -d postgres`
 `annotate --models`
 `i18n-tasks add-missing`
+`rails g devise:install`
+`rails g devise User`
+`rails g migration AddOwnerToTask user:references`
