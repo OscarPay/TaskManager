@@ -14,3 +14,4 @@ Commands to Reproduce this projects
 `rails g devise:install`
 `rails g devise User`
 `rails g migration AddOwnerToTask user:references`
+`rails g model Participant role:integer user:references task:references`
