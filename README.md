@@ -18,3 +18,6 @@ Commands to Reproduce this projects
 `yarn add github:nathanvda/cocoon#c24ba53`
 `rails g cancan:ability`
 `rails g migration AddCodeToTask code`
+`rails db:reset`
+`rails db:seed`
+`rails g mailer ParticipantMailer`
