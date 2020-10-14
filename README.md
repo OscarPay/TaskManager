@@ -16,3 +16,4 @@ Commands to Reproduce this projects
 `rails g migration AddOwnerToTask user:references`
 `rails g model Participant role:integer user:references task:references`
 `yarn add github:nathanvda/cocoon#c24ba53`
+`rails g cancan:ability`
