@@ -21,3 +21,4 @@ Commands to Reproduce this projects
 `rails db:reset`
 `rails db:seed`
 `rails g mailer ParticipantMailer`
+`rails g model Note body:text user:references task:references`
