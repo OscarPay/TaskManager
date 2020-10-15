@@ -5,7 +5,7 @@ Monolitic Rails Application, 2020
 Ruby 2.7
 Rails 6
 
-### Commands to Reproduce this projects
+### Commands to Reproduce this project
 
 `rails new organizador -T --database=postgresql`
 
