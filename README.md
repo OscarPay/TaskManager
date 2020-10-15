@@ -4,7 +4,7 @@ Monolitic Rails Application, 2020
 ruby 2.7
 rails 6
 
-Commands to Reproduce this projects
+### Commands to Reproduce this projects
 
 `rails new organizador -T --database=postgresql`
 `rails g simple_form:install --bootstrap`
@@ -26,3 +26,7 @@ Commands to Reproduce this projects
 `rails db:seed`
 `rails g mailer ParticipantMailer`
 `rails g model Note body:text user:references task:references`
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
