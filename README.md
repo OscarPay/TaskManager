@@ -1,4 +1,4 @@
-# README
+# TaskManager (Basic)
 
 Monolitic Rails Application, 2020
 
