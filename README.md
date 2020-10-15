@@ -1,5 +1,9 @@
 # README
 
+Monolitic Rails Application, 2020
+ruby 2.7
+rails 6
+
 Commands to Reproduce this projects
 
 `rails new organizador -T --database=postgresql`
