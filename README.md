@@ -1,8 +1,9 @@
 # README
 
 Monolitic Rails Application, 2020
-ruby 2.7
-rails 6
+
+Ruby 2.7
+Rails 6
 
 ### Commands to Reproduce this projects
 
