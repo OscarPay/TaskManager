@@ -47,5 +47,11 @@ Rails 6
 
 `rails g model Note body:text user:references task:references`
 
+### More Commands
+
+`rails g devise user`
+
+`rails g mongoid:config`
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
