@@ -44,6 +44,15 @@ group :development, :test do
   gem 'pry'
   gem 'pry-doc'
   gem 'i18n-tasks'
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'faker'
+  gem 'capybara'
+  gem 'mongoid-rspec'
 end
 
 group :development do

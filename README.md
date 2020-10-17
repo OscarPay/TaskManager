@@ -53,5 +53,17 @@ Rails 6
 
 `rails g mongoid:config`
 
+`rails g rspec:install`
+
+`rails g factory_bot:model category`
+
+`rails g factory_bot:model user`
+
+`rails g factory_bot:model participant`
+
+`rails g rspec:model task`
+
+`rails g rspec:model Category`
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
