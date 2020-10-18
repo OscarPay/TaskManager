@@ -69,5 +69,7 @@ Rails 6
 
 `rails g rspec:system task`
 
+`yarn add selectize`
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
