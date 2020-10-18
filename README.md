@@ -65,5 +65,9 @@ Rails 6
 
 `rails g rspec:model Category`
 
+`rails g rspec:request task`
+
+`rails g rspec:system task`
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -39,6 +39,8 @@ RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods
   config.include Warden::Test::Helpers
   config.include Devise::Test::ControllerHelpers, type: 'controller'
+  config.include Devise::Test::IntegrationHelpers, type: 'request'
+  config.include Devise::Test::IntegrationHelpers, type: 'system'
   config.include Mongoid::Matchers, type: :model
 
   config.before(:suite) do
@@ -48,6 +50,14 @@ RSpec.configure do |config|
 
   config.before(:each) do
     DatabaseCleaner.start
+  end
+
+  config.before(:each, type: :system) do
+    driven_by(:rack_test)
+  end
+
+  config.before(:each, type: :system, js: true) do
+    driven_by(:selenium_chrome_headless)
   end
 
   config.after(:each) do

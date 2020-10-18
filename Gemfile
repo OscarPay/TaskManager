@@ -53,6 +53,8 @@ group :test do
   gem 'faker'
   gem 'capybara'
   gem 'mongoid-rspec'
+  gem 'rails-controller-testing'
+  gem 'selenium-webdriver'
 end
 
 group :development do
