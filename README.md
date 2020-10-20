@@ -71,5 +71,9 @@ Rails 6
 
 `yarn add selectize`
 
+`rails g sucker_punch:job tasks/send_email`
+
+`rails g rspec:job tasks/send_email`
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
